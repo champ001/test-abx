@@ -1,10 +1,12 @@
-{
-  "name": "111test-vpopova-py",
-  "runtime": "python",
-  "entrypoint": "handler",
-  "inputs": {
-    "target": "World"
-  },
-  "memoryInMB": 300,
-  "timeoutSeconds": 600
-}
+---
+exportVersion: "1"
+exportId: "2c97ff6f816ee2f8018170fe3a900892"
+name: "11test-vpopova-py"
+runtime: "python"
+entrypoint: "handler"
+inputs:
+  target: "World"
+timeoutSeconds: 600
+deploymentTimeoutSeconds: 900
+actionType: "SCRIPT"
+memoryInMB: 300
