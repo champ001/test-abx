@@ -1,1 +1,10 @@
-test
+{
+  "name": "test-vpopova-py",
+  "runtime": "python",
+  "entrypoint": "handler",
+  "inputs": {
+    "target": "World"
+  },
+  "memoryInMB": 300,
+  "timeoutSeconds": 600
+}
