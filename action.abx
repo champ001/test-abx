@@ -1,5 +1,5 @@
 {
-  "name": "test-vpopova-py",
+  "name": "111test-vpopova-py",
   "runtime": "python",
   "entrypoint": "handler",
   "inputs": {
